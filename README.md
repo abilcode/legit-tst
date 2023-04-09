@@ -4,8 +4,8 @@ Start the project with environment setup and run the jupyterlab
 
 ```
 pip install virtualenv
-virtualenv legit-tst
-source datavidia_final/bin/activate
+virtualenv legit-tst-env
+source legit-tst-env/bin/activate
 pip install -r requirements.txt
 jupyter lab (optional)
 ```
