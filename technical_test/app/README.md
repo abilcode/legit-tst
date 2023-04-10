@@ -1,6 +1,6 @@
 ## Setup
 
-Start the project with environment setup and run the jupyterlab
+Start the project with environment setup and run the jupyterlab, or make sure u already installed the dependency
 
 ```
 pip install virtualenv
@@ -18,6 +18,11 @@ pip install -r requirements.txt
 jupyter lab (optional)
 ```
 
+After that, run this command : 
+```
+uvicorn main:app --reload
+```
+
 ## Structure
 
 ```
@@ -31,6 +36,3 @@ jupyter lab (optional)
         |--figures
     |--src
 ```
-
-
-next just jump right to the app file
